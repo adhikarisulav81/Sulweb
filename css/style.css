@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* change brand name font */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* change navbar text font */
+.navbar-text{
+    font-size: 0.5em;
+}
+
+/* img tag in carousel */
+.carousel-item img {
+    height: 95vh;
+    opacity: 0.5;
+}
+
+/*style to button class*/
+.btnclass {
+    margin: 5px;
+    padding: 5px;
+    text-align-last: center;
+}
+
+.btn-dark:hover {
+    background-color: green;
+}
+
+.jumbotron .heading{
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+    text-align: justify;
+    font-size: medium;
+}
+
+.container h2 {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.card-body img{
+    margin-top: -50px;
+}
+#team{
+    font-size: 20px;
+    color: black;
+}
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px grey;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+    background: grey;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+
+.googleMap iframe{
+    border-radius: 60px; 
+    padding: 30px;
+    width: 100%;
+    height: 440px;
+}
+
+.scrollupbtn {
+    margin: 5px; 
+    float: right; 
+    width: 50px; 
+    height: 40px; 
+    margin-top: 30px;
+}
